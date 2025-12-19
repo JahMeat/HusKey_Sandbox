@@ -104,7 +104,7 @@ Fork the repository to explore, test, and remediate additional issues.
 
 ## Testing
 
-All remediation tests are executed locally using pytest.
+All remediation tests are executed locally using `pytest`.
 
 Some tests were initially recorded using Selenium IDE (Firefox),
 then validated through automated pytest runs.
@@ -114,7 +114,7 @@ pip install pytest
 pytest ./pytest/
 ```
 
-# Notes
+# Implications
 
 This project is intentionally scoped as an educational security sandbox.
 All vulnerabilities, credentials, and cryptographic materials are
